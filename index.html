@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Basic</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <div class="navbar">
+                <ul id="sidemenu">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark nav-icon-blk" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars nav-icon-wht" onclick="openmenu()"></i>
+            </div>
+
+            <div class="nav-text">
+                <p>Hello.</p>
+                <h1>I am <span>Harry</span>,<br>
+                    UI/UX Designer</h1>
+                <p>Fom Pakistan</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- ----------------------About----------------------- -->
+
+    <div id="about">
+        <div class="container">
+            <div class="about-row">
+                <div class="about-col-1">
+                    <img src="media/dp-10.jpg" alt="">
+                </div>
+
+                <div class="about-col-2">
+                    <div class="abtout-text">
+                        <h1>About Me</h1>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quisquam possimus sint quas
+                            necessitatibus neque, voluptatum reiciendis ex odit at accusamus nostrum? Hic eum est
+                            quisquam perferendis iusto ipsa sequi, adipisci minima, doloribus illum quae officiis
+                            voluptas voluptatem nam esse repudiandae temporibus? Unde quia soluta, iusto architecto
+                            culpa, provident iure possimus earum laborum dolores labore tenetur? Ut, eos, nesciunt
+                            delectus dolorem maiores nisi ea perspiciatis esse vitae alias sed expedita Lorem ipsum,
+                            dolor sit amet consectetur adipisicing elit. Facere excepturi natus quia nihil asperiores
+                            maiores inventore, a qui corrupti esse.reprehenderit.
+                        </p>
+
+                        <button class="gen-btn">Download CV</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <br />
+
+    <!-- ----------------------Services----------------------- -->
+
+    <div id="services">
+        <div class="container">
+            <h1 class="title">Services</h1>
+
+            <div class="services-row">
+    
+                <div class="services-col">
+                    <i class="fa-solid fa-layer-group icon"></i>
+    
+                    <h1>User Research</h1>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis natus vero nostrum iste. Earum,
+                        quis soluta. Vel assumenda deserunt laborum? Lorem ipsum dolor sit amet consectetur adipisicing
+                        elit. Officiis, fugit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, modi!</p>
+                </div>
+    
+                <div class="services-col">
+                    <i class="fa-solid fa-palette icon"></i>
+                    <h1>Product Design</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim, tenetur maiores nulla repellendus
+                        odio aspernatur eos quod itaque praesentium repudiandae. Lorem ipsum dolor sit amet consectetur
+                        adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, modi! </p>
+                </div>
+    
+                <div class="services-col">
+                    <i class="fa-solid fa-mobile-screen icon"></i>
+                    <h1>Visiual Design</h1>
+                    <p>ipsum dolor, sit amet consectetur adipisicing elit. Officia dicta laboriosam optio minima eveniet a
+                        laudantium quaerat sint nobis nihil! Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                        Facilis, quis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, modi!</p>
+                </div>
+    
+            </div>
+        </div>
+    </div>
+
+    <!-- --------------Contact----------------  -->
+
+    <div id="contact">
+
+        <h1 class="title">Contact</h1>
+
+        <div class="form">
+            <input type="text" name="name" placeholder="Your Name">
+            <input type="text" name="email" placeholder="Your Email">
+            <textarea name="comments" rows="4" placeholder="Tell us about Yourself" class="textarea"></textarea>
+
+            <button class="gen-btn">Submit</button>
+
+        </div>
+    </div>
+
+    <!-- ----------------------footer----------------------- -->
+
+    <div class="footer">
+        <div class="row">
+            <p>© 2023 Harry, Inc. All rights reserved.</p>
+        </div>
+    </div>
+
+    <script src="js/fontawesome.js"></script>
+
+    <script>
+        var sidemenu=document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+
+    </script>
+</body>
+
+</html>`
